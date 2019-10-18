@@ -1,0 +1,22 @@
+name: sust-dev-gp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - black
+  - descartes
+  - geopandas
+  - gpy
+  - h5py
+  - ipython
+  - jupyter
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pandas
+  - pip
+  - pytables
+  - shapely
+  - pip:
+    - NavPy
